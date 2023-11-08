@@ -1,0 +1,89 @@
+﻿<Window x:Class="Agenda.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Agenda"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="280" Width="800" MinHeight="280" MinWidth="800">
+    
+    <Grid>
+        
+        <!-- Grid Principal con Toolbar + Ventana -->
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+            
+            <!-- Toolbar superior -->
+            <ToolBar ToolBarTray.IsLocked="True" Height="30px" Grid.Row="0" Background="Transparent" HorizontalContentAlignment="Left" Margin="-6,0,-16,0" BorderBrush="LightGray" BorderThickness="0,0,0,1">
+                <Button x:Name="agregarButton" FontSize="16px" Content="Añadir" Margin="10px,0,0,0"/>
+                <Button x:Name="eliminarButton" FontSize="16px" Content="Eliminar" Margin="10px,0,0,0"/>
+                <Button x:Name="salirButton" FontSize="16px" Content="Salir" Margin="10px,0,0,0"/>
+            </ToolBar>
+            
+            <!-- Grid de la Ventana bajo la Toolbar, con el lado izquierdo, el separador, y el derecho -->
+            <Grid Grid.Row="1">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="Auto"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+                
+                <!-- Grid contenedor del campo izquierdo de la ventana, dos columnas, calendario y campos de escritura y añadir -->
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="*"/>
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
+                    
+                    <Calendar x:Name="calendar" Grid.Column="0" VerticalAlignment="Top" Margin="0,20px,0,0"></Calendar>
+                    
+                    <!-- Grid del campo de escritura + añadir; tiene tres filas, una por cada elemento del bloque -->
+                    <Grid Margin="0,20px,0,0" Grid.Column="1">
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="Auto"/>
+                            <RowDefinition Height="Auto"/>
+                            <RowDefinition Height="*"/>
+                        </Grid.RowDefinitions>
+                        
+                        <Label Content="Tarea" Grid.Row="0" FontSize="18" HorizontalAlignment="Left" VerticalAlignment="Bottom" Width="62px" Height="34px"/>
+                        <TextBox x:Name="textTarea" Grid.Row="1" BorderBrush="Black" Width="128px" Height="30px" FontSize="16" HorizontalAlignment="Left" VerticalAlignment="Top" VerticalContentAlignment="Center"/>
+                        <Button x:Name="agregarButtonBig" Content="Añadir" FontSize="16px" Grid.Row="2" Width="96px" Height="30px" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="0,10px,0,0"/>
+                    </Grid>
+                </Grid>
+                
+                <!-- Elemento separador, centro del grid de la ventana bajo la toolbar -->
+                <StackPanel Grid.Column="1" Orientation="Horizontal">
+                    <Separator Style="{StaticResource {x:Static ToolBar.SeparatorStyleKey}}"/>
+                </StackPanel>
+                
+                <!-- Grid contenedor del campo derecho de la ventana bajo la toolbar, contiene la combobox, el botón de eliminar y la progressbar -->
+                <Grid Grid.Column="2">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="*"/>
+                        <RowDefinition Height="*"/>
+                        <RowDefinition Height="Auto"/>
+                    </Grid.RowDefinitions>
+                    
+                    <!-- Grid específico que contiene los elementos combobox y botón eliminar en dos columnas -->
+                    <Grid Grid.Row="0" Margin="20px,20px,0,0px" VerticalAlignment="Top">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="Auto"/>
+                        </Grid.ColumnDefinitions>
+                        <ComboBox VerticalAlignment="Top" FontSize="16" Height="30px"></ComboBox>
+                        <Button x:Name="eliminarButtonBig" Content="Eliminar" FontSize="16px" Grid.Column="1" Width="96px" Height="30px" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="10px,0,10px,0" ></Button>
+                    </Grid>
+                    
+                    <!-- Progressbar -->
+                    <ProgressBar Grid.Row="2" Height="30px" Width="360px" Margin="0,0,0,20px" IsIndeterminate="True" Foreground="pink"/>
+                </Grid>
+            </Grid>
+        </Grid>
+    </Grid>
+</Window>
