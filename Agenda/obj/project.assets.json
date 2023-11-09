@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\2dam\\source\\repos\\Agenda\\Agenda\\Agenda.csproj",
+      "projectUniqueName": "D:\\ciclot\\DGO\\Visual Studio Projects\\Agenda\\Agenda\\Agenda.csproj",
       "projectName": "Agenda",
-      "projectPath": "C:\\Users\\2dam\\source\\repos\\Agenda\\Agenda\\Agenda.csproj",
+      "projectPath": "D:\\ciclot\\DGO\\Visual Studio Projects\\Agenda\\Agenda\\Agenda.csproj",
       "packagesPath": "C:\\Users\\2dam\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\2dam\\source\\repos\\Agenda\\Agenda\\obj\\",
+      "outputPath": "D:\\ciclot\\DGO\\Visual Studio Projects\\Agenda\\Agenda\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

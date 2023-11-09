@@ -20,3 +20,25 @@ C:\Users\2dam\source\repos\Agenda\Agenda\obj\Debug\net5.0-windows\Agenda.dll
 C:\Users\2dam\source\repos\Agenda\Agenda\obj\Debug\net5.0-windows\ref\Agenda.dll
 C:\Users\2dam\source\repos\Agenda\Agenda\obj\Debug\net5.0-windows\Agenda.pdb
 C:\Users\2dam\source\repos\Agenda\Agenda\obj\Debug\net5.0-windows\Agenda.genruntimeconfig.cache
+D:\ciclot\DGO\Visual Studio Projects\Agenda\Agenda\bin\Debug\net5.0-windows\Agenda.exe
+D:\ciclot\DGO\Visual Studio Projects\Agenda\Agenda\bin\Debug\net5.0-windows\Agenda.deps.json
+D:\ciclot\DGO\Visual Studio Projects\Agenda\Agenda\bin\Debug\net5.0-windows\Agenda.runtimeconfig.json
+D:\ciclot\DGO\Visual Studio Projects\Agenda\Agenda\bin\Debug\net5.0-windows\Agenda.runtimeconfig.dev.json
+D:\ciclot\DGO\Visual Studio Projects\Agenda\Agenda\bin\Debug\net5.0-windows\Agenda.dll
+D:\ciclot\DGO\Visual Studio Projects\Agenda\Agenda\bin\Debug\net5.0-windows\ref\Agenda.dll
+D:\ciclot\DGO\Visual Studio Projects\Agenda\Agenda\bin\Debug\net5.0-windows\Agenda.pdb
+D:\ciclot\DGO\Visual Studio Projects\Agenda\Agenda\obj\Debug\net5.0-windows\Agenda.csproj.AssemblyReference.cache
+D:\ciclot\DGO\Visual Studio Projects\Agenda\Agenda\obj\Debug\net5.0-windows\MainWindow.g.cs
+D:\ciclot\DGO\Visual Studio Projects\Agenda\Agenda\obj\Debug\net5.0-windows\App.g.cs
+D:\ciclot\DGO\Visual Studio Projects\Agenda\Agenda\obj\Debug\net5.0-windows\Agenda_MarkupCompile.cache
+D:\ciclot\DGO\Visual Studio Projects\Agenda\Agenda\obj\Debug\net5.0-windows\Agenda_MarkupCompile.lref
+D:\ciclot\DGO\Visual Studio Projects\Agenda\Agenda\obj\Debug\net5.0-windows\MainWindow.baml
+D:\ciclot\DGO\Visual Studio Projects\Agenda\Agenda\obj\Debug\net5.0-windows\Agenda.g.resources
+D:\ciclot\DGO\Visual Studio Projects\Agenda\Agenda\obj\Debug\net5.0-windows\Agenda.GeneratedMSBuildEditorConfig.editorconfig
+D:\ciclot\DGO\Visual Studio Projects\Agenda\Agenda\obj\Debug\net5.0-windows\Agenda.AssemblyInfoInputs.cache
+D:\ciclot\DGO\Visual Studio Projects\Agenda\Agenda\obj\Debug\net5.0-windows\Agenda.AssemblyInfo.cs
+D:\ciclot\DGO\Visual Studio Projects\Agenda\Agenda\obj\Debug\net5.0-windows\Agenda.csproj.CoreCompileInputs.cache
+D:\ciclot\DGO\Visual Studio Projects\Agenda\Agenda\obj\Debug\net5.0-windows\Agenda.dll
+D:\ciclot\DGO\Visual Studio Projects\Agenda\Agenda\obj\Debug\net5.0-windows\ref\Agenda.dll
+D:\ciclot\DGO\Visual Studio Projects\Agenda\Agenda\obj\Debug\net5.0-windows\Agenda.pdb
+D:\ciclot\DGO\Visual Studio Projects\Agenda\Agenda\obj\Debug\net5.0-windows\Agenda.genruntimeconfig.cache

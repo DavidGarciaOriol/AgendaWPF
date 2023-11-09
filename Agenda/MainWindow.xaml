@@ -18,8 +18,8 @@
             
             <!-- Toolbar superior -->
             <ToolBar ToolBarTray.IsLocked="True" Height="30px" Grid.Row="0" Background="Transparent" HorizontalContentAlignment="Left" Margin="-6,0,-16,0" BorderBrush="LightGray" BorderThickness="0,0,0,1">
-                <Button x:Name="agregarButton" FontSize="16px" Content="Añadir" Margin="10px,0,0,0"/>
-                <Button x:Name="eliminarButton" FontSize="16px" Content="Eliminar" Margin="10px,0,0,0"/>
+                <Button x:Name="agregarButton" FontSize="16px" Content="Añadir" Margin="10px,0,0,0" Click="agregarButton_Click"/>
+                <Button x:Name="eliminarButton" FontSize="16px" Content="Eliminar" Margin="10px,0,0,0" Click="eliminarButton_Click"/>
                 <Button x:Name="salirButton" FontSize="16px" Content="Salir" Margin="10px,0,0,0"/>
             </ToolBar>
             
@@ -51,9 +51,9 @@
                             <RowDefinition Height="*"/>
                         </Grid.RowDefinitions>
                         
-                        <Label Content="Tarea" Grid.Row="0" FontSize="18" HorizontalAlignment="Left" VerticalAlignment="Bottom" Width="62px" Height="34px"/>
+                        <Label x:Name="textTareaLabel" Content="Tarea" Grid.Row="0" FontSize="18" HorizontalAlignment="Left" VerticalAlignment="Bottom" Width="70px" Height="34px"/>
                         <TextBox x:Name="textTarea" Grid.Row="1" BorderBrush="Black" Width="128px" Height="30px" FontSize="16" HorizontalAlignment="Left" VerticalAlignment="Top" VerticalContentAlignment="Center"/>
-                        <Button x:Name="agregarButtonBig" Content="Añadir" FontSize="16px" Grid.Row="2" Width="96px" Height="30px" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="0,10px,0,0"/>
+                        <Button x:Name="agregarButtonBig" Content="Añadir" FontSize="16px" Grid.Row="2" Width="96px" Height="30px" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="0,10px,0,0" Click="agregarButton_Click"/>
                     </Grid>
                 </Grid>
                 
@@ -76,12 +76,12 @@
                             <ColumnDefinition Width="*"/>
                             <ColumnDefinition Width="Auto"/>
                         </Grid.ColumnDefinitions>
-                        <ComboBox VerticalAlignment="Top" FontSize="16" Height="30px"></ComboBox>
-                        <Button x:Name="eliminarButtonBig" Content="Eliminar" FontSize="16px" Grid.Column="1" Width="96px" Height="30px" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="10px,0,10px,0" ></Button>
+                        <ComboBox x:Name="comboBox" VerticalAlignment="Top" FontSize="16" Height="30px" SelectionChanged="comboBox_SelectionChanged"></ComboBox>
+                        <Button x:Name="eliminarButtonBig" Content="Eliminar" FontSize="16px" Grid.Column="1" Width="96px" Height="30px" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="10px,0,10px,0" Click="eliminarButton_Click" ></Button>
                     </Grid>
                     
                     <!-- Progressbar -->
-                    <ProgressBar Grid.Row="2" Height="30px" Width="360px" Margin="0,0,0,20px" IsIndeterminate="True" Foreground="pink"/>
+                    <ProgressBar x:Name="progressBarComboBoxItems" Grid.Row="2" Height="30px" Width="360px" Margin="0,0,0,20px" IsIndeterminate="True" Foreground="pink"/>
                 </Grid>
             </Grid>
         </Grid>
