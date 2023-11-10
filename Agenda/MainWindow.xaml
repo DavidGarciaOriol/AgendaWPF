@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Agenda"
         mc:Ignorable="d"
-        Title="MainWindow" Height="280" Width="800" MinHeight="280" MinWidth="800">
+        Title="MainWindow" MinHeight="280" MinWidth="800" MaxHeight="280" MaxWidth="800">
     
     <Grid>
         
