@@ -108,5 +108,10 @@ namespace Agenda
             ComboBox comboBox = (ComboBox)sender;
             comboBoxItemToDeleteIndex = comboBox.SelectedIndex;
         }
+
+        private void salirButton_Click(object sender, RoutedEventArgs e)
+        {
+            Close();
+        }
     }
 }

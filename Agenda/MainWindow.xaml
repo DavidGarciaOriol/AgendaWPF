@@ -20,7 +20,7 @@
             <ToolBar ToolBarTray.IsLocked="True" Height="30px" Grid.Row="0" Background="Transparent" HorizontalContentAlignment="Left" Margin="-6,0,-16,0" BorderBrush="LightGray" BorderThickness="0,0,0,1">
                 <Button x:Name="agregarButton" FontSize="16px" Content="Añadir" Margin="10px,0,0,0" Click="agregarButton_Click"/>
                 <Button x:Name="eliminarButton" FontSize="16px" Content="Eliminar" Margin="10px,0,0,0" Click="eliminarButton_Click"/>
-                <Button x:Name="salirButton" FontSize="16px" Content="Salir" Margin="10px,0,0,0"/>
+                <Button x:Name="salirButton" FontSize="16px" Content="Salir" Margin="10px,0,0,0" Click="salirButton_Click"/>
             </ToolBar>
             
             <!-- Grid de la Ventana bajo la Toolbar, con el lado izquierdo, el separador, y el derecho -->
