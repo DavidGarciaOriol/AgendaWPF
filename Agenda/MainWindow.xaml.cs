@@ -22,20 +22,28 @@ namespace Agenda
             
             if (!textTarea.Text.Equals(""))
             {
-                textTarea.BorderBrush = new SolidColorBrush(Colors.Black);
 
-                textTareaLabel.Content = "Tarea";
-                textTareaLabel.Foreground = new SolidColorBrush(Colors.Black);
+                if (calendar.SelectedDate != null)
+                {
+                    calendar.BorderBrush = new SolidColorBrush(Colors.Black);
+                    textTarea.BorderBrush = new SolidColorBrush(Colors.Black);
 
-                ComboBoxItem comboBoxItem = new ComboBoxItem();
-                comboBoxItem.Content = calendar.DisplayDate.Day + "/" + calendar.DisplayDate.Month + "/" + calendar.DisplayDate.Year + " - " + textTarea.Text;
-                comboBox.Items.Add(comboBoxItem);
-                comboBox.SelectedItem = comboBoxItem;
+                    textTareaLabel.Content = "Tarea";
+                    textTareaLabel.Foreground = new SolidColorBrush(Colors.Black);
 
-                textTarea.Clear();
-                textTarea.Focus();
+                    ComboBoxItem comboBoxItem = new ComboBoxItem();
+                    comboBoxItem.Content = ((DateTime) calendar.SelectedDate).ToShortDateString() + " - " + textTarea.Text;
+                    comboBox.Items.Add(comboBoxItem);
+                    comboBox.SelectedItem = comboBoxItem;
 
-                actualizarProgressBar();
+                    textTarea.Clear();
+                    textTarea.Focus();
+
+                    actualizarProgressBar();
+                } else
+                {
+                    calendar.BorderBrush = new SolidColorBrush(Colors.Red);
+                }
             }
             else
             {

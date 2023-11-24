@@ -42,3 +42,25 @@ D:\ciclot\DGO\Visual Studio Projects\Agenda\Agenda\obj\Debug\net5.0-windows\Agen
 D:\ciclot\DGO\Visual Studio Projects\Agenda\Agenda\obj\Debug\net5.0-windows\ref\Agenda.dll
 D:\ciclot\DGO\Visual Studio Projects\Agenda\Agenda\obj\Debug\net5.0-windows\Agenda.pdb
 D:\ciclot\DGO\Visual Studio Projects\Agenda\Agenda\obj\Debug\net5.0-windows\Agenda.genruntimeconfig.cache
+C:\Users\usuario\source\repos\DesarrolloInterfaces\DEI_UT1_TAR06_DGO\Agenda\bin\Debug\net5.0-windows\Agenda.exe
+C:\Users\usuario\source\repos\DesarrolloInterfaces\DEI_UT1_TAR06_DGO\Agenda\bin\Debug\net5.0-windows\Agenda.deps.json
+C:\Users\usuario\source\repos\DesarrolloInterfaces\DEI_UT1_TAR06_DGO\Agenda\bin\Debug\net5.0-windows\Agenda.runtimeconfig.json
+C:\Users\usuario\source\repos\DesarrolloInterfaces\DEI_UT1_TAR06_DGO\Agenda\bin\Debug\net5.0-windows\Agenda.runtimeconfig.dev.json
+C:\Users\usuario\source\repos\DesarrolloInterfaces\DEI_UT1_TAR06_DGO\Agenda\bin\Debug\net5.0-windows\Agenda.dll
+C:\Users\usuario\source\repos\DesarrolloInterfaces\DEI_UT1_TAR06_DGO\Agenda\bin\Debug\net5.0-windows\Agenda.pdb
+C:\Users\usuario\source\repos\DesarrolloInterfaces\DEI_UT1_TAR06_DGO\Agenda\obj\Debug\net5.0-windows\Agenda.csproj.AssemblyReference.cache
+C:\Users\usuario\source\repos\DesarrolloInterfaces\DEI_UT1_TAR06_DGO\Agenda\obj\Debug\net5.0-windows\MainWindow.g.cs
+C:\Users\usuario\source\repos\DesarrolloInterfaces\DEI_UT1_TAR06_DGO\Agenda\obj\Debug\net5.0-windows\App.g.cs
+C:\Users\usuario\source\repos\DesarrolloInterfaces\DEI_UT1_TAR06_DGO\Agenda\obj\Debug\net5.0-windows\Agenda_MarkupCompile.cache
+C:\Users\usuario\source\repos\DesarrolloInterfaces\DEI_UT1_TAR06_DGO\Agenda\obj\Debug\net5.0-windows\Agenda_MarkupCompile.lref
+C:\Users\usuario\source\repos\DesarrolloInterfaces\DEI_UT1_TAR06_DGO\Agenda\obj\Debug\net5.0-windows\MainWindow.baml
+C:\Users\usuario\source\repos\DesarrolloInterfaces\DEI_UT1_TAR06_DGO\Agenda\obj\Debug\net5.0-windows\Agenda.g.resources
+C:\Users\usuario\source\repos\DesarrolloInterfaces\DEI_UT1_TAR06_DGO\Agenda\obj\Debug\net5.0-windows\Agenda.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\usuario\source\repos\DesarrolloInterfaces\DEI_UT1_TAR06_DGO\Agenda\obj\Debug\net5.0-windows\Agenda.AssemblyInfoInputs.cache
+C:\Users\usuario\source\repos\DesarrolloInterfaces\DEI_UT1_TAR06_DGO\Agenda\obj\Debug\net5.0-windows\Agenda.AssemblyInfo.cs
+C:\Users\usuario\source\repos\DesarrolloInterfaces\DEI_UT1_TAR06_DGO\Agenda\obj\Debug\net5.0-windows\Agenda.csproj.CoreCompileInputs.cache
+C:\Users\usuario\source\repos\DesarrolloInterfaces\DEI_UT1_TAR06_DGO\Agenda\obj\Debug\net5.0-windows\Agenda.dll
+C:\Users\usuario\source\repos\DesarrolloInterfaces\DEI_UT1_TAR06_DGO\Agenda\obj\Debug\net5.0-windows\refint\Agenda.dll
+C:\Users\usuario\source\repos\DesarrolloInterfaces\DEI_UT1_TAR06_DGO\Agenda\obj\Debug\net5.0-windows\Agenda.pdb
+C:\Users\usuario\source\repos\DesarrolloInterfaces\DEI_UT1_TAR06_DGO\Agenda\obj\Debug\net5.0-windows\Agenda.genruntimeconfig.cache
+C:\Users\usuario\source\repos\DesarrolloInterfaces\DEI_UT1_TAR06_DGO\Agenda\obj\Debug\net5.0-windows\ref\Agenda.dll
